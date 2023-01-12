@@ -14,7 +14,7 @@ app.get("",(req,res)=>{
     res.send({ message: "Welcome to ideoticAuth Backend"})
 })
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 
 app.listen(port,async()=>{
     await connection;
